@@ -10,9 +10,9 @@ Dokumen ini berisi informasi dan deskripsi lengkap mengenai struktur data, tabel
 ## Tabel: Orders
 Menyimpan informasi transaksi pembelian yang dilakukan oleh pengguna.
 
-| Nama Kolom | Tipe Data | Nullable | Kunci (Key) | Deskripsi | Contoh Nilai |
+| Nama Kolom | Tipe Data | Nullable | Kunci (Key) | Deskripsi | Kategori Data Pribadi |
 | :--- | :--- | :---: | :---: | :--- | :--- |
-| `id` | INT | No | PK | ID unik untuk setiap pesanan | `10025` |
+| `Student_ID` | Object | No | PK | ID unik pengenal mahasiswa | Identitas Langsung (Direct Identifier) |
 | `user_id` | INT | No | FK | Menghubungkan ke `id` di tabel `users` | `1` |
 | `total_price` | DECIMAL(10,2)| No | - | Total harga pesanan | `150000.00` |
 | `status` | ENUM | No | - | Status pesanan: `PENDING`, `PAID`, `SHIPPED`, `CANCELLED` | `PAID` |
