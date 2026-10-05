@@ -10,13 +10,13 @@ Dokumen ini berisi informasi dan deskripsi lengkap mengenai struktur data, tabel
 ## Tabel: Orders
 Menyimpan informasi transaksi pembelian yang dilakukan oleh pengguna.
 
-| Nama Kolom | Tipe Data | Nullable | Kunci (Key) | Deskripsi | Kategori Data Pribadi |
+| Nama Kolom | Tipe Data | Nullable | Deskripsi | Kategori Data Pribadi | Tindakan Penangan |
 | :--- | :--- | :---: | :---: | :--- | :--- |
-| `Student_ID` | Object | No | PK | ID unik pengenal mahasiswa | Identitas Langsung (Direct Identifier) |
-| `user_id` | INT | No | FK | Menghubungkan ke `id` di tabel `users` | `1` |
-| `total_price` | DECIMAL(10,2)| No | - | Total harga pesanan | `150000.00` |
-| `status` | ENUM | No | - | Status pesanan: `PENDING`, `PAID`, `SHIPPED`, `CANCELLED` | `PAID` |
-| `ordered_at` | TIMESTAMP | No | - | Waktu saat pesanan dibuat | `2026-10-05 09:00:00` |
+| `Student_ID` | Object | No | ID unik pengenal mahasiswa | Identitas Langsung (Direct Identifier) | Pseudonimisasi / Anonimisasi / Hapus sebelum pemodelan |
+| Age | INT | No | Usia mahasiswa (tahun) | Data Pribadi Umum (Quasi-identifier) | Pertahankan / Kelompokkan dalam rentang usia |
+| Gender | STRING | No | Jenis kelamin (Male, Female, Other) | Data Pribadi Umum (Sensitif) | Pertahankan / Agregasi jika ada risiko diskriminasi |
+| University_Year | STRING | No | Tingkat studi (Freshman, Sophomore, Junior, Senior) | Non-Pribadi / Akademik | Tidak ada tindakan khusus |
+| Major | STRING | No | Program studi / Jurusan mahasiswa | Non-Pribadi / Akademik | Tidak ada tindakan khusus |
 
 ---
 *Keterangan Kunci: PK = Primary Key, FK = Foreign Key, UK = Unique Key*
