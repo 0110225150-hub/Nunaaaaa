@@ -25,7 +25,22 @@ Menyimpan informasi transaksi pembelian yang dilakukan oleh pengguna.
 | `Projects_Completed` | INT | Jumlah proyek yang telah diselesaikan | Non-Pribadi / Akademik | Tidak ada tindakan khusus |
 | `Certifications` | INT | Jumlah sertifikasi profesional | Non-Pribadi / Skill | Tidak ada tindakan khusus |
 | `Hackathons` | INT | Skor tingkat keahlian koding (1-10) | Non-Pribadi / Skill | Tidak ada tindakan khusus |
-| `Programming_Skill` | INT | Jumlah keikutsertaan kompetisi hackathon | Non-Pribadi / Skill | Tidak ada tindakan khusus |
+| `GitHub_Profile` | STRING | Kepemilikan profil GitHub (Yes/No) | Data Pribadi Umum (Profil Publik) | Tidak ada tindakan khusus |
+| `Internships` | INT | Jumlah pengalaman magang | Non-Pribadi / Pengalaman | Tidak ada tindakan khusus |
+| `Leadership_Experience` | STRING | Pengalaman kepemimpinan (Yes/No) | Non-Pribadi / Pengalaman | Tidak ada tindakan khusus |
+| `LinkedIn_Profile` | STRING | Kepemilikan profil LinkedIn (Yes/No) | Data Pribadi Umum (Profil Publik) | Tidak ada tindakan khusus |
+| `Resume_Score` | INT | Skor kualitas resume/CV | Non-Pribadi / Evaluasi | Tidak ada tindakan khusus |
+| `Communication_Skills` | INT | Skor keterampilan komunikasi (1-10) | Non-Pribadi / Soft Skill | Tidak ada tindakan khusus |
+| `Teamwork` | INT | Skor kemampuan pemecahan masalah (1-10) | Non-Pribadi / Soft Skill | Tidak ada tindakan khusus |
+| `Problem_Solving` | INT | Skor kemampuan kerja sama tim (1-10) | Non-Pribadi / Soft Skill | Tidak ada tindakan khusus |
+| `English_Proficiency` | STRING | Tingkat kemahiran bahasa Inggris (Basic, Intermediate, Advanced) | Non-Pribadi / Soft Skill | Tidak ada tindakan khusus |
+| `Interview_Score` | INT | Skor simulasi/hasil wawancara kerja | Non-Pribadi / Evaluasi | Tidak ada tindakan khusus |
+| `Employability_Score` | Float | Skor gabungan kesiapan kerja | Non-Pribadi / Evaluasi | Tidak ada tindakan khusus |
+| `Placement_Status` | STRING | Status kelulusan/penempatan kerja (Placed / Not Placed) | Non-Pribadi / Karir | Tidak ada tindakan khusus |
+| `Company_Tier` | STRING | Kategori tingkat perusahaan (Tier 1, Tier 2, Tier 3, No Company) | Non-Pribadi / Karir | Tidak ada tindakan khusus |
+| `Career_Field` | STRING | Bidang/posisi pekerjaan karir | Non-Pribadi / Karir | Tidak ada tindakan khusus |
+| `Placement_Mode` | STRING | Jalur penempatan kerja (Campus Placement, Job Portal, dll) | Non-Pribadi / Karir | Tidak ada tindakan khusus |
+| `Starting_Salary_USD` | INT | Gaji awal dalam USD | Data Finansial Sensitif (Quasi-identifier) | Pertahankan untuk analisis regresi / Anonimisasi saat dipublikasikan |
 
 ---
 *Keterangan Kunci: PK = Primary Key, FK = Foreign Key, UK = Unique Key*
