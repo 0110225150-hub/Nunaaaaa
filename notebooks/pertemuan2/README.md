@@ -27,7 +27,7 @@
      
 
 **NAMA ANGGOTA**
-Salma Haniya Rahma 0110225150
-Trisa Dhiya Nasywa 0110225049
-Indah Nurul Hasibuan 0110225121
-Labibah Nurrahmah 0110225176
+- Salma Haniya Rahma 0110225150
+- Trisa Dhiya Nasywa 0110225049
+- Indah Nurul Hasibuan 0110225121
+- Labibah Nurrahmah 0110225176
