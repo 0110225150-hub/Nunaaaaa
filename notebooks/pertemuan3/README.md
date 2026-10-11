@@ -20,11 +20,11 @@ Faktor apa pada mahasiswa (pengalaman, keterampilan, dan latar belakang) yang be
    kolom: `Interview_Score`, `Placement_Status`
 
 ## Sumber data/Provenans:
-**1. nama sumber:** Student Career Success Prediction Dataset (Kaggle)
-**2. tautan sumber:** https://www.kaggle.com/datasets/mobeenfatimah/student-career-success-prediction-dataset
-**3. tanggal pengambilan:** 27 September 2026
-**4. lisensi/izin:** CC BY-SA 4.0
-**5. kalimat sitasi:****** Fatima, M. (2026). Student Career Success Prediction Dataset [Dataset]. Kaggle. https://www.kaggle.com/datasets/mobeenfatimah/student-career-success-prediction-dataset. Diakses pada 27 September 2026.
+1. Sumber data: Student Career Success Prediction Dataset (Kaggle)
+2. Tautan sumber: https://www.kaggle.com/datasets/mobeenfatimah/student-career-success-prediction-dataset
+3. Tanggal pengambilan: 27 September 2026
+4. Lisensi/izin: CC BY-SA 4.0
+5. Kalimat sitasi: Fatima, M. (2026). Student Career Success Prediction Dataset [Dataset]. Kaggle. https://www.kaggle.com/datasets/mobeenfatimah/student-career-success-prediction-dataset. Diakses pada 27 September 2026.
 
 ## penanganan data:
 kolom yang digunakan dalam analisis:
