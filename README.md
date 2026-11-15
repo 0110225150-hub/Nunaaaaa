@@ -1,7 +1,12 @@
 # Nunaaaaa
-Mata kuliah Exploratory Data Analyst
+Mata kuliah 
 
-Anggota Tim:
+## Identitas Kelompok:
+**Program studi:** Teknik Informatika
+**Mata Kuliah:** Exploratory Data Analyst
+**Semester:** Ganjil 2026/2027
+
+## Anggota:
 1. Trisa Dhiya Nasywa (0110225049)
 2. Salma Haniya Rahma (0110225150)
 3. Labibah Nurrahmah (0110225176)
@@ -14,10 +19,18 @@ Anggota Tim:
 |Analis|Analisis univariat, bivariat, multivariat, pemilihan teknik, pengecekan asumsi|
 |Penulis|Kualitas grafik, penyusunan laporan, slide, dan alur cerita temuan|
 
-## Pembagian Peran
+## Pembagian Kontribusi
 |Milestone|Koordinator|Data Engineer|Analis|Penulis|
 |---------|-----------|-------------|------|-------|
 |M1|Labibah|Salma|Trisa|Nurul|
 |M2|Trisa|Nurul|Salma|Labibah|
 |M3|Nurul|Trisa|Labibah|Salma|
 |M4|Salma|Labibah|Nurul|Trisa|
+
+## Latar Belakang
+
+
+## Tujuan Analisis
+
+
+## Sumber Data
