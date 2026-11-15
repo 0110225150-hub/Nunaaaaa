@@ -78,3 +78,42 @@ Kamus data lengkap: data_dictionary.md
 | 10 | Transaction Date | Quasi-identifier | Dapat digeneralisasi menjadi bulan atau periode jika kombinasi data berisiko mengidentifikasi pelanggan. |
 | 11 | Discount Applied | Bukan data pribadi | Dipertahankan untuk keperluan analisis. |
 
+## Struktur Repository
+```text
+Nunaaaaa/
+│
+├── dataset/
+│   ├── raw/
+│   │   └── retail_store_sales.csv
+│   │
+│   └── processed/
+│       └── data_bersih.csv
+│
+├── notebooks/
+│   ├── 01_data_quality.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   ├── 03_univariate_analysis.ipynb
+│   ├── 04_multivariate_analysis.ipynb
+│   ├── 05_advanced_analysis.ipynb
+│   │
+│   ├── pertemuan2/
+│   │   ├── P02_Praktikum_Labibah_Nurrahmah.ipynb
+│   │   ├── P02_Praktikum_Salma.ipynb
+│   │   └── P02_Praktikum_Trisa_Dhiya_Nasywa_Colab.ipynb
+│   │
+│   ├── pertemuan3/
+│   │   ├── P03_Praktikum_Pertemuan3_LabibahNurrahmah.ipynb
+│   │   ├── P03_Praktikum_Salma.ipynb
+│   │   └── P03_Praktikum_TrisaDhiyaNasywa.ipynb
+│   │
+│   └── pertemuan4/
+│       ├── P04_Praktikum_Salma.ipynb
+│       ├── P04_Workbook_Mandiri_Labibah_Nurrahmah.ipynb
+│       └── P04_Workbook_Mandiri_Trisa.ipynb
+│
+├── .gitignore
+├── AI_usage_log.md
+├── README.md
+├── cleaning_log.md
+└── data_dictionary.md
+```
