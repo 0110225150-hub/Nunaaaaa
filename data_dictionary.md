@@ -16,19 +16,21 @@
 
 ## 2. Deskripsi Variabel
 
-| No. | Nama Variabel | Tipe Data | Satuan | Deskripsi | Sumber | Nilai Kosong |
-|---|---|---|---|---|---|
-| 1 | Transaction ID | Object | ID transaksi | Kode unik yang digunakan untuk membedakan setiap transaksi penjualan. | Dataset Kaggle | 0 |
-| 2 | Customer ID | Object | ID pelanggan | Kode identitas yang digunakan untuk membedakan pelanggan dalam data transaksi. | Dataset Kaggle | 0 |
-| 3 | Category | Object | Kategori | Menunjukkan kelompok atau jenis produk yang dibeli pelanggan. | Dataset Kaggle | 0 |
-| 4 | Item | Object | Nama produk | Menunjukkan nama barang yang tercatat dalam transaksi penjualan. | Dataset Kaggle | 1.213 |
-| 5 | Price Per Unit | Float | Satuan mata uang belum dicantumkan | Menunjukkan harga untuk setiap satu unit produk. | Dataset Kaggle | 609 |
-| 6 | Quantity | Float | Unit/barang | Menunjukkan jumlah produk yang dibeli dalam satu transaksi. | Dataset Kaggle | 604 |
-| 7 | Total Spent | Float | Satuan mata uang belum dicantumkan | Menunjukkan total biaya yang dikeluarkan dalam suatu transaksi. | Dataset Kaggle | 604 |
-| 8 | Payment Method | Object | Kategori | Menunjukkan metode pembayaran yang digunakan pelanggan. | Dataset Kaggle | 0 |
-| 9 | Location | Object | Kategori | Menunjukkan lokasi atau jenis transaksi, yaitu Online atau In-store. | Dataset Kaggle | 0 |
-| 10 | Transaction Date | Object | Tanggal (YYYY-MM-DD) | Menunjukkan tanggal ketika transaksi penjualan dilakukan. | Dataset Kaggle | 0 |
-| 11 | Discount Applied | Object | Boolean (True/False) | Menunjukkan apakah diskon diterapkan pada transaksi. | Dataset Kaggle | 4.199 |
+
+| No. | Nama Variabel | Tipe Data / Skala | Satuan | Deskripsi | Sumber | Nilai Kosong |
+|---|---|---|---|---|---|---:|
+| 1 | Transaction ID | Object / Identifier | ID transaksi | Kode yang digunakan untuk membedakan setiap transaksi penjualan. | Dataset Retail Store Sales (Kaggle) | 0 |
+| 2 | Customer ID | Object / Identifier | ID pelanggan | Kode yang digunakan untuk membedakan pelanggan dalam data transaksi. | Dataset Retail Store Sales (Kaggle) | 0 |
+| 3 | Category | Object / Nominal | Kategori | Menunjukkan kelompok atau jenis produk yang dibeli pelanggan. | Dataset Retail Store Sales (Kaggle) | 0 |
+| 4 | Item | Object / Nominal | Nama produk | Menunjukkan nama barang yang tercatat dalam transaksi penjualan. | Dataset Retail Store Sales (Kaggle) | 1.213 |
+| 5 | Price Per Unit | Float / Rasio | Satuan mata uang belum diketahui | Menunjukkan harga untuk setiap satu unit produk. | Dataset Retail Store Sales (Kaggle) | 609 |
+| 6 | Quantity | Float / Rasio | Unit/barang | Menunjukkan jumlah produk yang dibeli dalam satu transaksi. | Dataset Retail Store Sales (Kaggle) | 604 |
+| 7 | Total Spent | Float / Rasio | Satuan mata uang belum diketahui | Menunjukkan total biaya yang dikeluarkan dalam suatu transaksi. | Dataset Retail Store Sales (Kaggle) | 604 |
+| 8 | Payment Method | Object / Nominal | Kategori | Menunjukkan metode pembayaran yang digunakan pelanggan, seperti Digital Wallet, Credit Card, dan Cash. | Dataset Retail Store Sales (Kaggle) | 0 |
+| 9 | Location | Object / Nominal | Kategori | Menunjukkan jenis lokasi transaksi, yaitu Online atau In-store. | Dataset Retail Store Sales (Kaggle) | 0 |
+| 10 | Transaction Date | Object / Tanggal | Tanggal (YYYY-MM-DD) | Menunjukkan tanggal ketika transaksi penjualan dilakukan. | Dataset Retail Store Sales (Kaggle) | 0 |
+| 11 | Discount Applied | Object / Nominal | Boolean (True/False) | Menunjukkan informasi apakah diskon diterapkan pada transaksi. | Dataset Retail Store Sales (Kaggle) | 4.199 |
+
 
 ## 3. Klasifikasi Penanganan Data Pribadi
 
