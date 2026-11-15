@@ -1,4 +1,6 @@
-## Deskripsi Projek
+[Analisis Pola Penjualan Toko Ritel]
+
+## Deskripsi Proyek
 Proyek ini merupakan analisis data eksploratif (Exploratory Data Analysis/EDA) terhadap dataset Retail Store Sales yang bertujuan untuk memahami pola penjualan toko ritel. Analisis dilakukan dengan mengeksplorasi data transaksi berdasarkan kategori produk, jumlah pembelian, total pengeluaran, metode pembayaran, lokasi, dan waktu transaksi. Hasil eksplorasi disajikan melalui visualisasi data untuk menemukan pola, tren, serta insight yang dapat membantu memahami karakteristik penjualan dan perilaku pelanggan.
 
 ## Identitas Kelompok:
@@ -7,10 +9,12 @@ Proyek ini merupakan analisis data eksploratif (Exploratory Data Analysis/EDA) t
 **Semester:** Ganjil 2026/2027
 
 ## Anggota:
-1. Trisa Dhiya Nasywa (0110225049)
-2. Salma Haniya Rahma (0110225150)
-3. Labibah Nurrahmah (0110225176)
-4. Indah Nurul (0110225121)
+|Anggota|NIM|Peran Utama|
+|----|----|----|
+|Labibah Nurrahmah|0110225176|Koordinator|
+|Salma Haniya Rahma|0110225150|Data Engineer|
+|Trisa Dhiya Nasywa|0110225049|Analis Data|
+|Indah Nurul Ayni|0110225121|Penulis|
 
 |Peran|Tanggung Jawab Utama|
 |---------|-----------|
@@ -28,7 +32,17 @@ Proyek ini merupakan analisis data eksploratif (Exploratory Data Analysis/EDA) t
 |M4|Salma|Labibah|Nurul|Trisa|
 
 ## Latar Belakang
-Bisnis ritel menghasilkan data transaksi yang dapat dimanfaatkan untuk memahami pola penjualan dan perilaku pelanggan. Melalui proyek Exploratory Data Analysis (EDA) ini, dilakukan analisis terhadap dataset Retail Store Sales untuk mengetahui tren penjualan, produk yang paling diminati, metode pembayaran, serta pola pembelian pelanggan. Hasil analisis diharapkan dapat memberikan hasil yang bermanfaat dalam memahami kondisi penjualan dan mendukung pengambilan keputusan bisnis.
+Data penjualan merupakan informasi penting dalam kegiatan usaha ritel. Melalui data transaksi, dapat diketahui barang yang banyak dibeli, jumlah pembelian, harga, serta pola pengeluaran pelanggan. Namun, data tersebut perlu dieksplorasi agar dapat memberikan gambaran yang lebih jelas mengenai aktivitas penjualan.
+
+Proyek ini menggunakan metode Exploratory Data Analysis (EDA) untuk mengidentifikasi pola dan karakteristik penjualan pada dataset Retail Store Sales. Analisis ini penting untuk memahami kecenderungan transaksi sekaligus menemukan permasalahan kualitas data.
+
+Hasil analisis diharapkan dapat memberikan informasi yang bermanfaat bagi pemilik dan pengelola toko ritel dalam mengevaluasi penjualan serta menjadi bahan pertimbangan dalam pengambilan keputusan bisnis.
+
+## Pertanyaan Analisis
+1. Bagaimana distribusi penjualan berdasarkan kategori dan jenis barang (Item)?
+2. Bagaimana pola jumlah pembelian dan total pengeluaran di setiap transaksi?
+3. Apakah ada perbedaan nilai transaksi berdasarkan kategori barang?
+4. Bagaimana hubungan penggunaan diskon dengan jumlah pembelian dan nilai transaksi?
 
 ## Tujuan Analisis
 - Mengidentifikasi pola dan tren penjualan toko ritel.
@@ -43,9 +57,38 @@ Bisnis ritel menghasilkan data transaksi yang dapat dimanfaatkan untuk memahami 
 |----------|---------|
 |Nama Dataset|Retail Store Sales|
 |Sumber Dataset|Kaggle|
-|Tautan Sumber|https://www.kaggle.com/datasets/ahmedmohamed2003/retail-store-sales-dirty-for-data-cleaning/data|
-|Jumlah Kolom|11 kolom|
-|Jumlah Baris Data Mentah|12.575 baris|
+|Ukuran|12.575 baris x 11 kolom|
 |Lisensi/Izin|CC BY-SA 4.0|
-|Tanggal Pengambilan|12 November 2026|
-|Kalimat Sitasi|Retail Store Sales: Dirty for Data Cleaning oleh Ahmed Mohamed (2024), diakses dari Kaggle|
+|Tanggal Unduh|12 November 2026|
+Kamus data lengkap: data_dictionary.md 
+
+## Penanganan Data Pribadi
+| No. | Kolom | Kategori Data | Tindakan Penanganan |
+|---|---|---|---|
+| 1 | Transaction ID | Bukan data pribadi | Dipertahankan untuk membedakan transaksi. |
+| 2 | Customer ID | Pengenal langsung (identifier pelanggan) | Dilakukan hashing atau pseudonimisasi sebelum data dipublikasikan. |
+| 3 | Category | Bukan data pribadi | Dipertahankan untuk keperluan analisis. |
+| 4 | Item | Bukan data pribadi | Dipertahankan untuk keperluan analisis. |
+| 5 | Price Per Unit | Bukan data pribadi | Dipertahankan untuk keperluan analisis. |
+| 6 | Quantity | Bukan data pribadi | Dipertahankan untuk keperluan analisis. |
+| 7 | Total Spent | Bukan data pribadi | Dipertahankan untuk keperluan analisis. |
+| 8 | Payment Method | Bukan data pribadi | Dipertahankan untuk keperluan analisis. |
+| 9 | Location | Bukan data pribadi | Dipertahankan karena hanya menunjukkan kategori lokasi transaksi. |
+| 10 | Transaction Date | Quasi-identifier | Dapat digeneralisasi menjadi bulan atau periode jika kombinasi data berisiko mengidentifikasi pelanggan. |
+| 11 | Discount Applied | Bukan data pribadi | Dipertahankan untuk keperluan analisis. |
+
+## Struktur Repositori
+data/raw/              data asli, tidak pernah diubah
+data/processed/        hasil pembersihan
+notebooks/pertemuan2   hasil workbook mandiri anggota (pertemuan 2)
+notebooks/pertemuan3   hasil workbook mandiri anggota (pertemuan 3)
+notebooks/pertemuan4   hasil workbook mandiri anggota (pertemuan 4)
+notebooks/             01_quality · 02_cleaning · 03_univariate · 04_multivariate · 05_advanced
+reports/               laporan, slide, dan figures/
+
+Catatan
+- Penggunaan AI generatif dicatat di AI_usage_log.md
+- Riwayat keputusan pembersihan ada di cleaning_log.md
+
+
+
