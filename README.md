@@ -60,6 +60,7 @@ Hasil analisis diharapkan dapat memberikan informasi yang bermanfaat bagi pemili
 |Ukuran|12.575 baris x 11 kolom|
 |Lisensi/Izin|CC BY-SA 4.0|
 |Tanggal Unduh|12 November 2026|
+
 Kamus data lengkap: data_dictionary.md 
 
 ## Penanganan Data Pribadi
@@ -76,19 +77,4 @@ Kamus data lengkap: data_dictionary.md
 | 9 | Location | Bukan data pribadi | Dipertahankan karena hanya menunjukkan kategori lokasi transaksi. |
 | 10 | Transaction Date | Quasi-identifier | Dapat digeneralisasi menjadi bulan atau periode jika kombinasi data berisiko mengidentifikasi pelanggan. |
 | 11 | Discount Applied | Bukan data pribadi | Dipertahankan untuk keperluan analisis. |
-
-## Struktur Repositori
-data/raw/              data asli, tidak pernah diubah
-data/processed/        hasil pembersihan
-notebooks/pertemuan2   hasil workbook mandiri anggota (pertemuan 2)
-notebooks/pertemuan3   hasil workbook mandiri anggota (pertemuan 3)
-notebooks/pertemuan4   hasil workbook mandiri anggota (pertemuan 4)
-notebooks/             01_quality · 02_cleaning · 03_univariate · 04_multivariate · 05_advanced
-reports/               laporan, slide, dan figures/
-
-Catatan
-- Penggunaan AI generatif dicatat di AI_usage_log.md
-- Riwayat keputusan pembersihan ada di cleaning_log.md
-
-
 
