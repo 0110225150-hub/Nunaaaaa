@@ -12,8 +12,8 @@ Tiga hal yang perlu diingat:
 
 | \# | Tanggal | Anggota | Alat | Tujuan | Prompt utama (ringkas) | Bagian yang dihasilkan / diubah | Diverifikasi? |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| 1 | 14/11/2026 | Salma Haniya | Claude AI | Merapikan dan fiksasi notebook M1-M2 | “Periksa file M1 (diagnosis) dan M2 (cleaning) yang udah setengah dikerjakan apakah kolom sudah sesuai dengan perintahnya, lalu koreksi dan lanjutkan workbook ini” | Koreksian seluruh file notebook M1 dan M2 | Ya – Kode sudah sesuai dengan dataset dan template, namun masih ada beberapa penyesuaian pada implementasinya. |
-| 2 | 15/11/2026 | Salma Haniya | Claude AI | Debug Error NotDefined | “Kenapa bisa error” (beserta tangkapan layar) | Menambahkan fungsi catat (def catat) sebelum tahapan 1 dimulai. | Ya – fungsi catat berfungsi dan berhasil mencatat seluruh tahapan untuk digunakan pada cleaning log. |
+| 1 | 14/11/2026 | Salma Haniya | Claude | Merapikan dan fiksasi notebook 01_quality.ipynb - 02_cleaning.ipynb | “Periksa file 01 (diagnosis) dan 02 (cleaning) yang udah setengah dikerjakan apakah kolom sudah sesuai dengan perintahnya, lalu koreksi dan lanjutkan workbook ini” | Koreksian seluruh file notebook 01 dan 02 | Ya – Kode sudah sesuai dengan dataset dan template, namun masih ada beberapa penyesuaian pada implementasinya. |
+| 2 | 15/11/2026 | Salma Haniya | Claude | Debug Error NotDefined | “Kenapa bisa error” (beserta tangkapan layar) | Menambahkan fungsi catat (def catat) pada 02_cleaning.ipynb sebelum tahapan 1 dimulai. | Ya – def catat berfungsi dan berhasil mencatat seluruh tahapan untuk digunakan pada cleaning log. |
 | 3 |  |  |  |  |  |  |  |
 
 ---
