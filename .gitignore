@@ -1,0 +1,27 @@
+# Salin isi berkas ini menjadi .gitignore di akar repositori
+
+# Lingkungan Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Berkas sistem
+.DS_Store
+Thumbs.db
+
+# KNIME
+knime/*/tmp/
+*.knwf.lock
+
+# Berkas data berukuran besar
+# Bila berkas data melebihi 100 MB, jangan diunggah ke Git.
+# Simpan di penyimpanan daring dan tulis tautan serta cara mengunduhnya di README.md.
+# data/raw/nama_berkas_besar.csv
+
+# JANGAN abaikan berkas berikut -- keduanya wajib ada di repositori:
+#   data/raw/      (data asli, bukti keterlacakan)
+#   data/processed/ (hasil pembersihan)
