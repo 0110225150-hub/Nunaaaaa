@@ -1,4 +1,4 @@
-[Analisis Pola Penjualan Toko Ritel]
+# [Analisis Pola Penjualan Toko Ritel]
 
 ## Deskripsi Proyek
 Proyek ini merupakan analisis data eksploratif (Exploratory Data Analysis/EDA) terhadap dataset Retail Store Sales yang bertujuan untuk memahami pola penjualan toko ritel. Analisis dilakukan dengan mengeksplorasi data transaksi berdasarkan kategori produk, jumlah pembelian, total pengeluaran, metode pembayaran, lokasi, dan waktu transaksi. Hasil eksplorasi disajikan melalui visualisasi data untuk menemukan pola, tren, serta insight yang dapat membantu memahami karakteristik penjualan dan perilaku pelanggan.
