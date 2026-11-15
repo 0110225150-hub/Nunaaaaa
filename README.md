@@ -1,5 +1,4 @@
 # Nunaaaaa
-Mata kuliah 
 
 ## Identitas Kelompok:
 **Program studi:** Teknik Informatika
