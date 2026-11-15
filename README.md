@@ -9,10 +9,8 @@ Anggota Tim:
 
 |Peran|Tanggung Jawab Utama|
 |---------|-----------|
-|Koordinator|Menjaga jadwal, memimpin rapat tim, mengunggah pengumpulan ke LMS, menjadi
-penghubung dengan dosen|
-|Data Engineer|Akuisisi data, pembersihan, pipeline, menjaga data/raw tetap utuh, menulis
-cleaning_log.md|
+|Koordinator|Menjaga jadwal, memimpin rapat tim, mengunggah pengumpulan ke LMS, menjadi penghubung dengan dosen|
+|Data Engineer|Akuisisi data, pembersihan, pipeline, menjaga data/raw tetap utuh, menulis cleaning_log.md|
 |Analis|Analisis univariat, bivariat, multivariat, pemilihan teknik, pengecekan asumsi|
 |Penulis|Kualitas grafik, penyusunan laporan, slide, dan alur cerita temuan|
 
