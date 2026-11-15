@@ -1,9 +1,9 @@
 # Nunaaaaa
 
 ## Identitas Kelompok:
-> **Program studi:** Teknik Informatika
-> **Mata Kuliah:** Exploratory Data Analyst
-> **Semester:** Ganjil 2026/2027
+**Program studi:** Teknik Informatika\
+**Mata Kuliah:** Exploratory Data Analyst\
+**Semester:** Ganjil 2026/2027
 
 ## Anggota:
 1. Trisa Dhiya Nasywa (0110225049)
