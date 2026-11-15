@@ -18,7 +18,7 @@
 |Analis|Analisis univariat, bivariat, multivariat, pemilihan teknik, pengecekan asumsi|
 |Penulis|Kualitas grafik, penyusunan laporan, slide, dan alur cerita temuan|
 
-## Pembagian Kontribusi
+## Pembagian Peran
 |Milestone|Koordinator|Data Engineer|Analis|Penulis|
 |---------|-----------|-------------|------|-------|
 |M1|Labibah|Salma|Trisa|Nurul|
@@ -33,3 +33,24 @@
 
 
 ## Sumber Data
+|Keterangan|Informasi|
+|----------|---------|
+|Nama Dataset||
+|Sumber Dataset|Kaggle|
+|Tautan Sumber||
+|Jumlah Kolom||
+|Lisensi/Izin||
+|Tanggal Pengambilan||
+|Kalimat Sitasi||
+
+## Variabel Dataset
+|#|Nama Kolom|Tipe Data|Deskripsi|
+|-|----------|---------|---------|
+|||||
+
+## Privasi dan Data Pribadi
+|Jenis Informasi|Keterangan|
+|---------------|----------|
+|||
+
+## Struktur Repository
