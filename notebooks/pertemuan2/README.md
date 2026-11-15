@@ -1,29 +1,20 @@
-1.  Berapa baris dan kolom? Apa satuan tiap barisnya (satu baris = satu apa)?
-    - Total data di dataset ini memiliki 50.000 baris dan 29 kolom.
-    - Satuan tiap baris: 1 baris = 1 data profil/rekam jejak akademis dan karir seorang mahasiswa (diidentifikasi oleh Student_ID).
+1. Berapa baris dan kolom? Apa satuan tiap barisnya?
+   - Dataset memiliki 12.575 baris dan 11 kolom.
+   - Satuan baris: 1 baris = 1 transaksi penjualan (diidentifikasi oleh Transaction ID).
 
 2. Kolom mana yang numerik, kategorikal, dan tanggal?
-   - Numerik (16 Kolom):age, Attendance_Percentage, Study_Hours_Per_Week, CGPA, Programming_Skill, Projects_Completed, Certifications, Hackathons, Internships, Resume_Score, Communication_Skills, Teamwork, Problem_Solving, Interview_Score, Employability_Score, Starting_Salary_USD
-   - Kategorikal (13 Kolom): Student_ID, Gender, University_Year, Major, Academic_Performance, GitHub_Profile, Leadership_Experience, LinkedIn_Profile, English_Proficiency, Placement_Status, Company_Tier, Career_Field, Placement_Mode
-   - Tanggal: Tidak ada kolom bertipe tanggal/waktu dalam dataset  ini.
+   - Numerik (3): Price Per Unit, Quantity, Total Spent.
+   - Kategorikal (7): Transaction ID, Customer ID, Category, Item, Payment Method, Location, Discount Applied.
+   - Tanggal (1): Transaction Date (saat ini bertipe teks).
 
-3. Kolom mana yang bermasalah (kosong, tipe salah, nilai tidak konsisten)?
-   - Data Kosong: Tidak ada
-   - Tipe Data Salah: tidak ada yang salah secara teknis, namun kolom kategorikal biner seberti GITHUB_Profile, Leadership_Experience, dan Linkedln_Profile bernilai teks ("Yes"/"No") sehingga perlu diubah menjadi biner (0/1) saat tahap preprocessing/modelling.
-   - Nilai Tidak Konsisten:
-     - Data ini bersifat buatan (synthetic) sehingga distribusinya rapi tanpa outlier ekstrem atau sesuai dengan logika bisnis.
-     - Kolom Starting_Salary_USD untuk mahasiswa dengan status Nol Placed diisi angka 0, sehingga sudah sesuai dengan logika bisnis.
+3. Kolom mana yang bermasalah?
+   - Data kosong: Item 1.213 (9,6%), Price Per Unit 609 (4,8%), Quantity 604 (4,8%), Total Spent 604 (4,8%), Discount Applied 4.199 (33,4%). Sebanyak 4.996 baris memiliki minimal satu nilai kosong.
+   - Tipe salah: Transaction Date bertipe teks (seharusnya datetime), Discount Applied bertipe campuran (seharusnya boolean).
+   - Nilai tidak konsisten: tidak ditemukan. Tidak ada baris duplikat, penulisan kategori seragam, dan Total Spent = Price Per Unit × Quantity cocok di semua 11.362 baris lengkap.
 
-4. Apakah data ini cukup untuk menjawab pertanyaan analisi tim? Jika belum, apa yang kurang?
-   - Sudah cukup, terutama untuk kebutuhan:
-     - Memprediksi status penerimaan kerja mahasiswa (Placement_Status).
-     - Melihat pengaruh faktor akademis dan soft skill terhadap gaji awal (Starting_Salary_USD).
-     - Memprediksi tingkatan perusahaan (Company_Tier) penerima.
-       
-    - Beberapa keterbatasan data yang perlu diperhatikan:
-      - Tidak ada data waktu/tahun: Tanpa adanya tahun kelulusan, tren antar-periode tidak bisa dianalisis.
-      - Tidak ada informasi lokasi: Lokasi kampus maupun area kerja tifak tercantum.
-      - Sifat daya buatan: Sebagai synthetic data, pola antar-variabel bisa jadi terlalu ideal dibanding lokasi kondisi lapangan.
+4. Apakah data cukup untuk menjawab pertanyaan analisis?
+   - Cukup untuk analisis deskriptif pola transaksi menurut kategori, metode pembayaran, lokasi, dan waktu.
+   - Keterbatasan: data bersifat sintetis, kolom numerik hanya tiga (Total Spent turunan dari dua kolom lain), tidak ada informasi demografi pelanggan, dan data kosong cukup besar sehingga perlu penanganan.
      
 
 **NAMA ANGGOTA**
